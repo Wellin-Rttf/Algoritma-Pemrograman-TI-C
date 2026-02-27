@@ -11,7 +11,7 @@ print(f"Anda berumur {age} tahun.")
 # Menggunakan try exception untuk memastikan bahhwa pengguna memasukkan integer
 try:
     finger = int(input("Masukkan jumlah jari kedua tangan Anda: "))
-    print(f"Anda berumur {finger} tahun.")
+    print(f"Jari kedua tangan Anda ada {finger}.")
     
 except ValueError:
     print("Jumlah yang Anda masukkan tidak valid!")
